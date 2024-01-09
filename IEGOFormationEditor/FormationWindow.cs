@@ -642,7 +642,7 @@ namespace FormationInazumaClass
         {
             if (formationListBox.SelectedIndex == -1) return;
 
-            saveFileDialog2.FileName = Path.GetFileName(formationListBox.Text + ".cfg.bin");
+            saveFileDialog2.FileName = FindFormationHash(Formations[formationListBox.SelectedIndex].Header.FormationHash) + ".cfg.bin";
             saveFileDialog2.InitialDirectory = Path.GetDirectoryName(openFileDialog1.FileName);
             saveFileDialog2.Title = "Export Inazuma Eleven Formation file";
             saveFileDialog2.Filter = "Inazuma Eleven Formation (*.cfg.bin)|*.cfg.bin";
