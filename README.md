@@ -17,7 +17,7 @@ No guide for learning the basics will be provided, the guide below assumes that 
 
 **How to use it**
 
-- Download IEGOFormationEditor [link here].
+- Download [IEGOFormationEditor](https://github.com/Tiniifan/IEGOFormationEditor/releases/latest/download/IEGOFormationEditor.exe).
 - Use Karameru or Kuriimu2 on the following files:
   - For Inazuma Eleven GO: ie_a.fa
   - For Inazuma Eleven GO CS: ie_b.fa
